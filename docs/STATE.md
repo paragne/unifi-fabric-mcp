@@ -46,7 +46,6 @@ Nothing yet.
 
 ## Open decisions
 
-- Repo name. "unifi-msp-mcp" is a placeholder; check GitHub for collisions.
 - Typed tool params vs params_json string: decide after the task 22 Copilot Studio test.
 - Self-approval for high risk: default on, revisit after task 22.
 

@@ -1,4 +1,4 @@
-# unifi-msp-mcp
+# unifi-fabric-mcp
 
 Open-source MCP server for the UniFi Site Manager / Fabric cloud API, built for MSPs
 and designed for Microsoft Copilot Studio as the client. Many tenant API keys in
@@ -25,7 +25,7 @@ Azure Key Vault, Entra ID OAuth, human-approved writes, secrets never reach the 
 
 ## Layout
 
-- `src/unifi_msp_mcp/server.py` : app wiring, /mcp, /healthz, OAuth and approval routes
+- `src/unifi_fabric_mcp/server.py` : app wiring, /mcp, /healthz, OAuth and approval routes
 - `config.py` : env parsing, fails fast at startup
 - `auth/` : IdentityProvider interface, Entra validation, OAuth facade
 - `secrets/` : SecretBackend interface (keyvault, envfile for dev only)

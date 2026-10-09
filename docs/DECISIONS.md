@@ -16,3 +16,4 @@ Append only. One line per decision, with the reason.
 - 2026-10-09: Cloud-specific code behind interfaces (secrets, tenants, change store, identity). Other clouds come later without a rewrite.
 - 2026-10-09: License Apache-2.0. Patent grant, compatible with upstream MIT.
 - 2026-10-09: Not a learning entry for the stack. The new part is the OAuth facade and Copilot Studio integration.
+- 2026-10-09: Repo named unifi-fabric-mcp
